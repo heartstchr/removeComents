@@ -1,0 +1,26 @@
+{
+  "name": "browstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heartstchr/removeComents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heartstchr/removeComents/issues"
+  },
+  "homepage": "https://github.com/heartstchr/removeComents#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "extract-comments": "^0.10.1",
+    "file-system": "^2.2.2",
+    "strip-comments": "^0.4.4",
+    "swig": "^1.4.2"
+  }
+}
