@@ -34,7 +34,7 @@ function readLines(input, func) {
                 }
             }
         }
-        fs.writeFile('./test.txt', finalArray.join('\n'), function(err) {})
+        fs.writeFile('./output.cpp', finalArray.join('\n'), function(err) {})
     });
 
     input.on('end', function() {
